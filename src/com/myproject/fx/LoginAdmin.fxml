@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.canvas.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="340.0" prefWidth="469.0" style="-fx-background-color: #E6E6FA;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.myproject.AdminLoginController">
+	<!-- TODO Add Nodes -->
+	<children>
+	
+        <TextField fx:id="loginAdmin" layoutX="204.0" layoutY="110.0" />
+        <PasswordField fx:id="passwordAdmin" layoutX="204.0" layoutY="153.0" />
+        <Label layoutX="118.0" layoutY="111.0" text="Login">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+        <Label layoutX="118.0" layoutY="154.0" text="Password">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+        <Button fx:id="singInButtonAdmin" layoutX="186.0" layoutY="233.0" mnemonicParsing="false" style="-fx-background-color: #9370DB;" text="Sign in" textAlignment="CENTER">
+         <font>
+            <Font name="Script MT Bold" size="24.0" />
+         </font></Button>
+        <Label fx:id="errorSignInAdmin" alignment="CENTER" layoutX="168.0" layoutY="200.0" prefHeight="25.0" prefWidth="134.0" textFill="RED" />
+      <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="45.0" prefWidth="470.0" style="-fx-background-color: #9370DB;" text="MyProject" textAlignment="CENTER">
+         <font>
+            <Font name="Script MT Bold" size="30.0" />
+         </font>
+      </Label>
+    </children>
+</AnchorPane>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="237.0" prefWidth="203.0" style="-fx-background-color: #E6E6FA;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.myproject.ControllerRegime">
+   <children>
+   
+      <RadioButton fx:id="regime1" layoutX="64.0" layoutY="50.0" mnemonicParsing="false" text="Admin" />
+      <RadioButton fx:id="regime2" layoutX="64.0" layoutY="83.0" mnemonicParsing="false" text="UserPassword" />
+      <RadioButton fx:id="regime3" layoutX="64.0" layoutY="114.0" mnemonicParsing="false" text="Numeric" />
+      <RadioButton fx:id="regime4" layoutX="64.0" layoutY="145.0" mnemonicParsing="false" text="Email" />
+      <Button fx:id="chooseRegime" layoutX="73.0" layoutY="198.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="58.0" style="-fx-background-color: #9370DB;" text="Ok" />
+      <Label alignment="CENTER" layoutY="-2.0" prefHeight="32.0" prefWidth="203.0" style="-fx-background-color: #9370DB;" text="Choose regime">
+         <font>
+            <Font name="Script MT Bold" size="20.0" />
+         </font>
+      </Label>
+      <RadioButton fx:id="regime5" layoutX="64.0" layoutY="171.0" mnemonicParsing="false" text="SMS" />
+   </children>
+</AnchorPane>

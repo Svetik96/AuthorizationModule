@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="340.0" prefWidth="469.0" style="-fx-background-color: #E6E6FA;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.myproject.UserNumericLoginController">
+	<!-- TODO Add Nodes -->
+	<children>
+	
+      <TextField fx:id="loginUserNumeric" layoutX="203.0" layoutY="130.0" />
+      <TextField fx:id="numericUserNumeric" layoutX="203.0" layoutY="173.0" />
+      <Label layoutX="117.0" layoutY="134.0" text="Login">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Label layoutX="117.0" layoutY="177.0" text="Numeric">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Button fx:id="singInButtonUserNumeric" layoutX="208.0" layoutY="272.0" mnemonicParsing="false" style="-fx-background-color: #9370DB;" text="Sign in">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Label fx:id="errorSignInUserNumeric" alignment="CENTER" layoutX="160.0" layoutY="223.0" prefHeight="25.0" prefWidth="149.0" textFill="RED" />
+      <Label fx:id="hint" alignment="CENTER" contentDisplay="CENTER" layoutX="366.0" layoutY="53.0" prefHeight="90.0" prefWidth="94.0" textAlignment="CENTER">
+         <font>
+            <Font size="24.0" />
+         </font></Label>
+      <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="45.0" prefWidth="474.0" style="-fx-background-color: #9370DB;" text="MyProject" textAlignment="CENTER">
+         <font>
+            <Font name="Script MT Bold" size="30.0" />
+         </font>
+      </Label>
+    </children>
+</AnchorPane>
